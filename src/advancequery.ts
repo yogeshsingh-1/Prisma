@@ -19,6 +19,13 @@ async function main() {
                 published : true
             }
         }
+    },
+    include : {
+        posts : {
+            where  :{
+                published:true
+            }
+        }
     }
     })
     console.log(user);
